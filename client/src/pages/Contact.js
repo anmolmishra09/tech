@@ -232,11 +232,11 @@ function Contact() {
       <section className="map-section">
         <div className="container">
           <h2>Visit Our Office</h2>
-          <p className="map-description">Find us at our San Francisco headquarters</p>
+          <p className="map-description">Find us in Bengaluru, India - The Silicon Valley of India</p>
           <div className="map-container">
             <iframe
               title="Inalgo Office Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0867456996584!2d-122.41941492347136!3d37.78779971800432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sTransamerica%20Pyramid!5e0!3m2!1sen!2sus!4v1709345678901!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.77491188665!2d77.30126421902398!3d12.954294257077642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sin!4v1709470000000!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}

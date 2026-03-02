@@ -76,10 +76,10 @@ function Footer() {
                 <li><a href="/about">About Us</a></li>
                 <li><a href="/about">Our Vision</a></li>
                 <li>
-                  <a href="/contact">Careers</a>
+                  <a href="/careers">Careers</a>
                   <span className="hiring-badge">HIRING</span>
                 </li>
-                <li><a href="/contact">Privacy Policy</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
                 <li><a href="/contact">Contact Us</a></li>
               </ul>
             </div>

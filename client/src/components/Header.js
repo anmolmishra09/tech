@@ -42,6 +42,11 @@ function Header() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link to="/careers" className={`nav-link ${isActive('/careers')}`} onClick={closeMenu}>
+                Careers
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/contact" className={`nav-link ${isActive('/contact')}`} onClick={closeMenu}>
                 Contact
               </Link>

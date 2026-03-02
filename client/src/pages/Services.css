@@ -90,7 +90,8 @@
 
 .service-details {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.75rem;
   padding: 1rem 0;
   border-top: 1px solid #374151;
 }
@@ -98,32 +99,104 @@
 .detail-item {
   flex: 1;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.75rem;
   text-align: left;
+  background: rgba(55, 65, 81, 0.3);
+  padding: 0.75rem;
+  border-radius: 8px;
 }
 
 .detail-icon {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1;
 }
 
 .detail-label {
   color: #9ca3af;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   margin-bottom: 0.25rem;
 }
 
 .detail-value {
   color: #f3f4f6;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
 .service-cta {
   margin-top: auto;
-  widt91h: 100%;
+  width: 100%;
   text-align: center;
+}
+
+.service-btn {
+  margin-top: auto;
+  width: 100%;
+  padding: 0.875rem 1.5rem;
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.service-btn:hover::before {
+  left: 100%;
+}
+
+.service-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.4);
+}
+
+.service-btn:active {
+  transform: translateY(-1px);
+}
+
+.btn-text {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-icon {
+  position: relative;
+  z-index: 1;
+  font-size: 1.25rem;
+  transition: transform 0.3s ease;
+}
+
+.service-btn:hover .btn-icon {
+  transform: translateX(4px);
+}
+
+.service-cta .glass-button-wrapper {
+  width: 100%;
+}
+
+.service-cta .glass-button-inner {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.8rem;
 }
 
 /* CTA Section */
@@ -171,7 +244,8 @@
   }
 
   .service-details {
-    gap: 1.5rem;
+    flex-direction: row;
+    gap: 1rem;
   }
 }
 

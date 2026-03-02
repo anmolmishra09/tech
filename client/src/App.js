@@ -19,6 +19,8 @@ import SaaSSolutions from './pages/SaaSSolutions';
 import CaseStudies from './pages/CaseStudies';
 import Blog from './pages/Blog';
 import Partners from './pages/Partners';
+import Careers from './pages/Careers';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 // Replace this with your actual Google Client ID from Google Cloud Console
 const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || 'YOUR_GOOGLE_CLIENT_ID_HERE';
@@ -41,6 +43,8 @@ function App() {
               <Route path="/case-studies" element={<CaseStudies />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/partners" element={<Partners />} />
+              <Route path="/careers" element={<Careers />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/signin" element={<SignIn />} />
               <Route path="/signup" element={<SignUp />} />
