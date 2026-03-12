@@ -21,11 +21,11 @@ function Home() {
         <div className="container">
           <div className="hero-content">
             <h1 className="hero-title">
-              Think It. Type It. Launch It.
+              Think It. Type It. <span className="hero-highlight-orange">Launch It.</span>
             </h1>
 
             <p className="hero-subtitle">
-              Software Solution - Simplify challenges, maximize results, and stay ahead in the competitive market.
+              Software Solution - Simplify challenges, maximize results, and <span className="hero-highlight-underline">stay ahead</span> in the competitive market.
             </p>
 
             <div className="hero-buttons">
