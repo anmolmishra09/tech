@@ -10,10 +10,18 @@
     "install-all": "npm install && cd client && npm install && cd ../server && npm install",
     "build": "cd client && npm run build"
   },
-  "keywords": ["react", "nodejs", "fullstack", "responsive"],
+  "keywords": [
+    "react",
+    "nodejs",
+    "fullstack",
+    "responsive"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "expo": "^55.0.9"
   }
 }
