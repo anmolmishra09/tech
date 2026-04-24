@@ -11,6 +11,7 @@ function Toast({ message, description, type = 'success', duration = 5000, onClos
       }, duration);
       return () => clearTimeout(timer);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [duration]);
 
   const handleClose = () => {
