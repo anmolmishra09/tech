@@ -30,7 +30,7 @@ function Home() {
 
             <div className="hero-buttons">
               <GlassBorderButton variant="purple">
-                <a href="/contact" style={{ textDecoration: 'none', color: 'inherit' }}>Get Started</a>
+                <a href="https://transcript-ai-8.preview.emergentagent.com/" style={{ textDecoration: 'none', color: 'inherit' }}>Get Started</a>
               </GlassBorderButton>
               <a href="#portfolio" className="btn-secondary">
                 <span>Learn More</span>
